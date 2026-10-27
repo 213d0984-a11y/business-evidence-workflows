@@ -14,6 +14,25 @@ An abbreviated owner test on 27 October 2026 returned this query-health record:
 
 The query completed, but the 100-record cap left part of the 247 available records outside this particular scan. Check `complete` and `capped` before interpreting a missing match; a completed status alone is not evidence of full coverage. Counts change over time. This was an owner test, not a customer outcome.
 
+## Reading a recall screening result
+
+The Actor first requests up to `maxRecords` reports in the selected `days` window, ordered by report date, then applies the watchlist to the records it received. A supplier match outside that retrieved set will not appear. Increasing the maximum (up to 500) or narrowing the date window may reduce a cap, but neither guarantees complete coverage. Always check the returned health record's `scanned`, `totalAvailable`, `complete` and `capped` fields. If the query is capped, treat the screen as incomplete and use an appropriate additional source or review process; this Actor does not paginate beyond the limit.
+
+To adapt the example, copy the [FDA task](https://apify.com/logical_resourcefulnes/fda-food-recall-supplier-match/examples/screen-recent-fda-food-recalls), choose an independent monitor key, and enter a watchlist such as the following **fictional input**, replacing the terms with ones you are authorized to process:
+
+```json
+[
+  {"supplier": "Example Bakery", "product": "oat cookies"},
+  {"supplier": "Example Foods"}
+]
+```
+
+One entry may specify a supplier, a product, or both; when both are supplied, both need to match the same record. The entries are alternatives. Matching uses text and may be ambiguous or miss different spellings. Check the Actor's input instructions and confirm your rights before entering your own watchlist. An empty watchlist instead returns recent recalls without supplier filtering. Use a new monitor key for a different watchlist or date-window workflow; reuse it for the same workflow and avoid concurrent runs with that key.
+
+For each candidate, inspect `sourceUrl`, `recallingFirm`, `productDescription`, `reason`, `distribution`, `recallStatus`, and `observedAt`; follow the official record and have a person check the actual product and circumstances. With `changesOnly` enabled, unchanged matches are omitted from later runs. Consequently, no evidence rows can mean unchanged results, a failed or incomplete query, or no match among the records scanned; it does not establish that there is no recall. Check `OUTPUT.status`, diagnostics and the query-health row before interpreting the result. A completed query can still be capped, as the owner test above shows. FDA records can be delayed or updated, and absence from a later scan does not establish that a recall was resolved.
+
+This example is for screening, not a safety or regulatory determination. Review live pricing and set a maximum run cost before starting: the start charge can apply even when no match is found, and a completed query can incur a charge even if its coverage is capped. Dataset access after the run can also incur platform usage charges.
+
 ## UK company domain research
 
 For account research or due diligence, [check UK company domain evidence](https://apify.com/logical_resourcefulnes/uk-company-domain-evidence-resolver/examples/check-uk-company-domain-evidence) using the public Tesco PLC example. Replace the company details with your own research targets. Candidate domains and registry evidence should be checked independently; a candidate domain or name match does not establish legal ownership or a commercial relationship.
