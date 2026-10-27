@@ -6,6 +6,8 @@ Change monitoring starts with a reliable baseline. When switching from a demonst
 
 [Try a fictional ATS snapshot](https://apify.com/logical_resourcefulnes/ats-source-health-job-delta/examples/track-job-board-changes-demo) to see the structure before using your own authorized Greenhouse, Lever or Ashby board. Review source-health rows alongside job records. On the first run, results are a baseline; subsequent runs can report additions and changes. Check source permissions and the Actor's limits before supplying live boards.
 
+For a live board, authorization means you have permission to use the source; the Actor uses the public board API and does not sign in on your behalf. Do not put passwords, API tokens or other credentials in the board fields or supplied snapshots. Run inputs and outputs are retained in your own Apify account according to its storage settings, so include only information appropriate for that account.
+
 An abbreviated owner test on 26 October 2026, using an invented job board and repeated complete observations, returned:
 
 ```json
@@ -19,6 +21,8 @@ An abbreviated owner test on 26 October 2026, using an invented job board and re
 ## Product catalogs
 
 [Audit a fictional product feed](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo). Replace it with a JSON or CSV export that you are authorized to process. Choose a stable SKU key and preserve leading zeros as strings. Declare completeness only when the whole intended snapshot was collected. Empty or unexpectedly large removals require explicit acknowledgement to avoid interpreting a partial feed as stock disappearance.
+
+Use a public HTTPS feed that you are authorized to access, or provide an authorized export. Do not include passwords, tokens, secret query parameters or other credentials in URLs or data fields; authenticated feeds are not supported. Inputs and results remain in your Apify account under its retention settings, so check that the account is appropriate for any commercial data you submit.
 
 An abbreviated owner test on 27 October 2026 returned this fictional baseline row (not a customer result):
 
