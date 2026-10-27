@@ -6,6 +6,14 @@ Food-safety and supplier-management teams can [screen recent FDA food recall rep
 
 Review each candidate against its official source. A name match is not proof that a supplier or product is affected, and a missing match is not proof of safety. The date window, query limits and maximum records can restrict coverage. Keep the source link, observation time and coverage diagnostics with the review record. Check current event prices and a maximum cost before running.
 
+An abbreviated owner test on 27 October 2026 returned this query-health record:
+
+```json
+{"recordType":"recall_query_health","status":"completed","scanned":100,"totalAvailable":247,"complete":false,"capped":true}
+```
+
+The query completed, but the 100-record cap left part of the 247 available records outside this particular scan. Check `complete` and `capped` before interpreting a missing match; a completed status alone is not evidence of full coverage. Counts change over time. This was an owner test, not a customer outcome.
+
 ## UK company domain research
 
 For account research or due diligence, [check UK company domain evidence](https://apify.com/logical_resourcefulnes/uk-company-domain-evidence-resolver/examples/check-uk-company-domain-evidence) using the public Tesco PLC example. Replace the company details with your own research targets. Candidate domains and registry evidence should be checked independently; a candidate domain or name match does not establish legal ownership or a commercial relationship.
