@@ -10,6 +10,14 @@ Change monitoring starts with a reliable baseline. When switching from a demonst
 
 [Audit a fictional product feed](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo). Replace it with a JSON or CSV export that you are authorized to process. Choose a stable SKU key and preserve leading zeros as strings. Declare completeness only when the whole intended snapshot was collected. Empty or unexpectedly large removals require explicit acknowledgement to avoid interpreting a partial feed as stock disappearance.
 
+An abbreviated owner test on 27 October 2026 returned this fictional baseline row (not a customer result):
+
+```json
+{"recordType":"catalog_change","itemId":"00123","changeType":"baseline","after":{"sku":"00123","price":"19.90","currency":"GBP","stock":"12"}}
+```
+
+The `baseline` label means the first observation; it does not claim a price changed. On later runs, inspect the reported change type and completeness diagnostics.
+
 The older [Revenue Pilot](https://apify.com/logical_resourcefulnes/revenue-pilot) accepts two JSON snapshots rather than a feed. It is currently a controlled launch, and processing is paused outside its approved verification window. Consult its availability and pricing before trying it.
 
 ## Policy pages
