@@ -28,7 +28,13 @@ Here is an invented three-outcome example:
 }
 ```
 
-If this input is processed successfully, the expected interpretation is one changed product (`00123`), one removed product (`00124`) and one added product (`00125`). Review the actual `OUTPUT` record for the returned status, counts and field-level details. A held or rejected run is not a completed comparison. The Actor cannot verify the upstream completeness declaration independently.
+An offline owner check of the comparison logic returned the following abbreviated result. This is a local calculation, not an Apify run, a charge, or a customer result:
+
+```json
+{"status":"completed","counts":{"added":1,"removed":1,"changed":1},"rows_before":2,"rows_after":2,"billable_units":1}
+```
+
+The changed product is `00123`, the removed product is `00124`, and the added product is `00125`. For an actual run, review the `OUTPUT` record for the returned status, counts and field-level details. A held or rejected run is not a completed comparison. The Actor cannot verify the upstream completeness declaration independently.
 
 ## Understand the safeguards and cost
 
