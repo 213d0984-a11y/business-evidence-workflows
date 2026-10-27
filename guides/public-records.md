@@ -11,6 +11,8 @@ Procurement teams can start with [Track UK software tender deadlines](https://ap
 3. Review the buyer, current and previous deadline, status, and source link. Open the official record before taking action.
 4. Check the coverage indicators: the page and lookup caps mean this is a bounded scan, not every UK tender. Missing data or a source failure does not prove a notice was removed.
 
+
+In an owner test of this example on 27 October 2026, Apify reported the run as successful, but `OUTPUT.status` was `partial` and `coverageComplete` was `false`. Diagnostics included `page_limit_reached`, `source_response_size_limit` and `record_lookup_limit_reached`. The baseline therefore describes notices actually delivered by that scan, not the full market. Check these fields on each run and investigate any limits before treating a missing notice as meaningful. This was an owner test, not a customer outcome; source results and diagnostics can change.
 The Actor charges for starts and delivered new or updated tenders as described on its pricing page. Narrow filters can reduce relevance noise, but may exclude notices with missing classification data.
 
 ## SEC management-change disclosures
