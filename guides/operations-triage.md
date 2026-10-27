@@ -14,6 +14,14 @@ An abbreviated owner test on 27 October 2026 returned the fictional example belo
 
 [Check a sample page](https://apify.com/logical_resourcefulnes/website-accessibility-regression-evidence/examples/check-accessibility-regression-demo) using an intentionally flawed fictional HTML page. Repeat with the same monitor key to compare findings, then review each rule and affected element manually. The check uses axe-core on a static DOM: page scripts and external resources are disabled, so it does not cover dynamic interactions or all CSS-dependent issues. It is not a WCAG conformance certification.
 
+An abbreviated owner test of an invented page on 26 October 2026 returned:
+
+```json
+{"recordType":"accessibility_finding","pageId":"authored-demo","ruleId":"button-name","impact":"critical","target":["button"],"changeType":"baseline"}
+```
+
+This points to a button without a discernible name in the sample. Use the rule and target to locate the element, then review it in the actual rendered experience. The result is a test observation, not a customer outcome or a complete accessibility assessment.
+
 ## RevOps account research
 
 Consultancies can try the existing [Salesforce & HubSpot prospect check](https://apify.com/logical_resourcefulnes/revops-opportunity-radar/examples/salesforce-hubspot-prospect-check-10-companies). It inspects a small Greenhouse starter set for role evidence and provides a score, source links, cautions and qualification questions. Review job postings before using a signal. A hiring post is not proof of consulting demand, a budget, or a willingness to buy; use responsible, relevant outreach.
