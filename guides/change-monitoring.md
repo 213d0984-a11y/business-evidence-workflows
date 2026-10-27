@@ -34,6 +34,10 @@ The older [Revenue Pilot](https://apify.com/logical_resourcefulnes/revenue-pilot
 
 [Monitor a policy page](https://apify.com/logical_resourcefulnes/authorized-policy-page-change-audit/examples/monitor-policy-page-text-changes) using the GOV.UK terms preset. When adapting the example, use an authorized page, choose the relevant text region, and exclude noisy elements carefully. Review the original page and the reported evidence; text differences are not legal advice.
 
+The Actor compares static HTML text; it does not render JavaScript or access signed-in pages. Scripts, styles, navigation, headers and footers are excluded by default, so changes confined to those areas will not appear. Use the same page ID and monitor key for the same source; when you change the source or comparison settings, use a new key for a clean baseline. Check the selected region and source permissions before relying on a comparison.
+
+Inspect the run's `OUTPUT` and diagnostics, even if the run itself appears successful. An incomplete page, an unexpectedly empty later page, or a text reduction above 70% can hold the comparison instead of producing a change. Investigate a failed fetch, selector or truncated page before considering the explicit empty or large-reduction overrides. A held comparison does not establish that nothing changed. Completed page checks can be charged even if the text is unchanged; consult live pricing and your run cost limit.
+
 ## RSS and Atom
 
 [Monitor competition news](https://apify.com/logical_resourcefulnes/licensed-industry-rss-delta-feed/examples/monitor-competition-news-rss) using the GOV.UK competition authority feed. Add keywords where useful, and review the feed's own terms before replacing the preset. The Actor reads feed titles and summaries, not article full text; feed coverage and licensing vary.
