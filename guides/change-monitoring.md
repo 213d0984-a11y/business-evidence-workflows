@@ -1,6 +1,6 @@
 # Compare job boards, catalogs, policy pages and feeds
 
-Change monitoring starts with a reliable baseline. Keep one monitor key per source and workflow; repeat with the same key to compare later observations. An incomplete source is not proof that an item disappeared.
+Change monitoring starts with a reliable baseline. When switching from a demonstration to your own source, choose a new monitor key to avoid comparing your real data to fictional examples. Keep one key per source and workflow, then reuse it for later observations. An incomplete source is not proof that an item disappeared.
 
 ## Job postings
 
