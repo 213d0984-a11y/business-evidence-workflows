@@ -6,6 +6,7 @@ Short, hands-on guides to monitoring public sources, comparing authorized snapsh
 | --- | --- |
 | Monitor UK software procurement or SEC disclosures | [Public-sector and company filings](guides/public-records.md) |
 | Track product feeds, job boards or policy pages | [Compare changing sources](guides/change-monitoring.md) |
+| Compare two catalog snapshots by SKU | [Product snapshot comparison](guides/product-snapshot-comparison.md) (controlled launch; currently paused) |
 | Screen food recalls or investigate company domains | [Supplier and company evidence](guides/supplier-evidence.md) |
 | Prioritize review responses, check accessibility, or research RevOps signals | [Operations and triage](guides/operations-triage.md) |
 
