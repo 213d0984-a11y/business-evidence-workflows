@@ -55,7 +55,7 @@ Keep the same monitor key and board ID. Replace the input with the following com
 }
 ```
 
-A local owner simulation with these exact fictional inputs produced the following sequence. It is not a customer result or a new cloud-run claim:
+On 27 October 2026, an owner test on the public build using these fictional inputs and a separate monitor key produced the following sequence. It is a verification run, not a customer result:
 
 | Run | Job 101 change | Complete observations missing |
 | --- | --- | ---: |
