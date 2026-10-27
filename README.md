@@ -1,6 +1,6 @@
 # Practical business evidence workflows
 
-Short, hands-on guides to monitoring public sources, comparing authorized snapshots, and reviewing business evidence. The examples link to Actors maintained by this publisher on Apify. Check each Actor's live **Pricing** tab and set a maximum cost before running: platform usage and event charges may apply, including on some runs with no results.
+Short, hands-on guides to monitoring public sources, comparing authorized snapshots, and reviewing business evidence. The examples link to Actors maintained by this publisher on Apify. Check each Actor's live **Pricing** tab and set a maximum cost before running: event charges may apply even when no results are found. Interactions with datasets after a run can incur standard Apify platform usage charges; consult [Apify's pricing-model guidance](https://docs.apify.com/actors/running/actors-in-store).
 
 | Your job | Guide |
 | --- | --- |
