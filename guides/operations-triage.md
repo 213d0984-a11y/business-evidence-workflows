@@ -4,6 +4,8 @@
 
 Hotel teams can [prioritize a fictional review export](https://apify.com/logical_resourcefulnes/hospitality-review-triage-queue/examples/prioritize-hotel-review-responses-demo). Replace the invented data with a review export you are authorized to process. Review the ranked queue, severity and source fields before deciding who should respond. The Actor does not send replies. Avoid entering personal details that are unnecessary for the workflow.
 
+The Actor removes common email and phone patterns from excerpts, but this is not complete anonymization. The original input remains in the run's Apify account under its storage and retention settings. Before submitting real reviews, minimize personal information and check that the account and retention policy are appropriate for the data.
+
 An abbreviated owner test on 27 October 2026 returned the fictional example below; keyword matches are prompts for human review, not verified facts:
 
 ```json
