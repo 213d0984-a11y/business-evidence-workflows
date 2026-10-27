@@ -10,6 +10,8 @@ Short, hands-on guides to monitoring public sources, comparing authorized snapsh
 | Screen food recalls or investigate company domains | [Supplier and company evidence](guides/supplier-evidence.md) |
 | Prioritize review responses, check accessibility, or research RevOps signals | [Operations and triage](guides/operations-triage.md) |
 
+日本語の手順：[宿泊レビューを確認する順番を整理する](guides/review-triage-ja.md)（架空データの入力と結果例）。
+
 ## Move from a preset to your own data
 
 The job-board, catalog, policy-page, hotel-review, RSS, company-domain and accessibility examples start with the rights confirmation unchecked. The built-in preset can run as a demonstration. To use your own data or source, copy the task into your account, verify that you are authorized to process it, then check **I have rights to use this input** in the Actor input before running. Use a separate monitor key when changing to a different source or dataset; retain it for later comparisons. See the individual Actor's README for its input fields and limits.
