@@ -14,6 +14,8 @@ An abbreviated owner test on 26 October 2026, using an invented job board and re
 
 `closure_pending` is an early signal that this fictional job was absent from one complete observation, not confirmation that the vacancy closed. Check the board-health records and the source before acting. This was a test, not a customer result.
 
+[Follow the three-snapshot walkthrough](job-board-snapshots.md) to reproduce the baseline, pending and candidate states using fictional input.
+
 ## Product catalogs
 
 [Audit a fictional product feed](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo). Replace it with a JSON or CSV export that you are authorized to process. Choose a stable SKU key and preserve leading zeros as strings. Declare completeness only when the whole intended snapshot was collected. Empty or unexpectedly large removals require explicit acknowledgement to avoid interpreting a partial feed as stock disappearance.
