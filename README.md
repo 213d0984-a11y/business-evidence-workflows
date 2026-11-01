@@ -6,7 +6,7 @@ Short, hands-on guides to monitoring public sources, comparing authorized snapsh
 | --- | --- |
 | Monitor UK software procurement or SEC disclosures | [Public-sector and company filings](guides/public-records.md) |
 | Track product feeds, job boards or policy pages | [Compare changing sources](guides/change-monitoring.md) |
-| Compare two catalog snapshots by SKU | [Product snapshot comparison](guides/product-snapshot-comparison.md) (controlled launch; currently paused) |
+| Compare two catalog snapshots by SKU | [Product snapshot comparison](guides/product-snapshot-comparison.md) |
 | Screen food recalls or investigate company domains | [Supplier and company evidence](guides/supplier-evidence.md) |
 | Prioritize review responses, check accessibility, or research RevOps signals | [Operations and triage](guides/operations-triage.md) |
 
@@ -24,7 +24,7 @@ Each example opens a public task with a sample input and output fields. Copy it 
 | Screen recent food recalls | [FDA recall screening](https://apify.com/logical_resourcefulnes/fda-food-recall-supplier-match/examples/screen-recent-fda-food-recalls) | [Supplier evidence](guides/supplier-evidence.md) |
 | Prioritize hotel reviews | [Review triage](https://apify.com/logical_resourcefulnes/hospitality-review-triage-queue/examples/prioritize-hotel-review-responses-demo) | [Operations triage](guides/operations-triage.md) |
 | Track an RSS feed | [Competition news](https://apify.com/logical_resourcefulnes/licensed-industry-rss-delta-feed/examples/monitor-competition-news-rss) | [Change monitoring](guides/change-monitoring.md) |
-| Compare two complete JSON catalogs | [Revenue Pilot](https://apify.com/logical_resourcefulnes/revenue-pilot) — processing paused | [Snapshot comparison](guides/product-snapshot-comparison.md) |
+| Compare two complete JSON catalogs | [SKU comparison example](https://apify.com/logical_resourcefulnes/revenue-pilot/examples) | [Snapshot comparison](guides/product-snapshot-comparison.md) |
 | Monitor SEC filings | [SEC 8-K disclosures](https://apify.com/logical_resourcefulnes/sec-8k-item-amendment-watch/examples/track-sec-management-change-filings) | [Public records](guides/public-records.md) |
 | Research RevOps signals | [Salesforce and HubSpot prospects](https://apify.com/logical_resourcefulnes/revops-opportunity-radar/examples/salesforce-hubspot-prospect-check-10-companies) | [Operations triage](guides/operations-triage.md) |
 | Investigate a company domain | [UK domain evidence](https://apify.com/logical_resourcefulnes/uk-company-domain-evidence-resolver/examples/check-uk-company-domain-evidence) | [Supplier evidence](guides/supplier-evidence.md) |
@@ -37,5 +37,5 @@ The job-board, catalog, policy-page, hotel-review, RSS, company-domain and acces
 
 These tools provide evidence for a human to review. They do not guarantee complete coverage, business outcomes, legal compliance, or ownership. Use only inputs you are authorized to process. Fictional examples are identified as such; historical validation is not presented as customer results.
 
-The [Apify profile](https://apify.com/logical_resourcefulnes) lists all 12 public Actors. Revenue Pilot is in a controlled launch and its processing is paused outside the approved verification window; see its page before attempting a run.
+The [Apify profile](https://apify.com/logical_resourcefulnes) lists all 12 public Actors. Revenue Pilot is configured for general use without individual approval. Open its example tasks and choose Run example to copy the fictional SKU preset. One completed comparison costs USD 0.05; keep the example's USD 0.05 maximum charge. An operator emergency pause remains available.
 

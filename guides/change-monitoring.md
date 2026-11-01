@@ -32,7 +32,7 @@ An abbreviated owner test on 27 October 2026 returned this fictional baseline ro
 
 The `baseline` label means the first observation; it does not claim a price changed. On later runs, inspect the reported change type and completeness diagnostics.
 
-The older [Revenue Pilot](https://apify.com/logical_resourcefulnes/revenue-pilot) accepts two JSON snapshots rather than a feed. It is currently a controlled launch, and processing is paused outside its approved verification window. Consult its availability and pricing before trying it.
+For two complete JSON exports rather than a feed, [Revenue Pilot](https://apify.com/logical_resourcefulnes/revenue-pilot) is configured for general use without individual approval. One completed comparison costs USD 0.05, including a comparison with no changes. Open its [example tasks](https://apify.com/logical_resourcefulnes/revenue-pilot/examples) and choose Run example, then review the USD 0.05 maximum charge before starting. The [SKU comparison walkthrough](product-snapshot-comparison.md) explains the summary row and full JSON result.
 
 ## Policy pages
 

@@ -2,7 +2,7 @@
 
 An operations team preparing a catalog import may want to identify products that appeared, disappeared, or changed price between two complete exports. The [Revenue Pilot Actor](https://apify.com/logical_resourcefulnes/revenue-pilot) compares two JSON snapshots by a unique string key and returns a JSON comparison. It does not collect product pages or update the catalog.
 
-**Availability:** Revenue Pilot is in a controlled launch. Processing is paused outside the approved buyer verification window. Check the Actor page for the current status before trying it. The sample below illustrates the input and expected interpretation; it is not a customer result or a claim that a paused run completed.
+**Availability:** Revenue Pilot is configured for general use without individual approval. Open the [example tasks](https://apify.com/logical_resourcefulnes/revenue-pilot/examples) and choose **Run example**, or [copy the fictional SKU preset into Apify Console](https://console.apify.com/create-task-from-example/UbIn0wcLpPieRtAIb). Review the input and live Pricing tab before starting. The preset uses build 0.0.10, a USD 0.05 maximum charge, 60-second timeout and 256 MB memory. The operator can pause processing in an emergency.
 
 ## Prepare the inputs
 
@@ -28,19 +28,19 @@ Here is an invented three-outcome example:
 }
 ```
 
-An offline owner check of the comparison logic returned the following abbreviated result. This is a local calculation, not an Apify run, a charge, or a customer result:
+An owner cloud check on 2 November 2026 (JST), using the invented input above, returned the following abbreviated result. The run recorded one comparison-completed event. This was owner verification, not a customer result, confirmed sales revenue or a payout:
 
 ```json
 {"status":"completed","counts":{"added":1,"removed":1,"changed":1},"rows_before":2,"rows_after":2,"billable_units":1}
 ```
 
-The changed product is `00123`, the removed product is `00124`, and the added product is `00125`. For an actual run, review the `OUTPUT` record for the returned status, counts and field-level details. A held or rejected run is not a completed comparison. The Actor cannot verify the upstream completeness declaration independently.
+The changed product is `00123`, the removed product is `00124`, and the added product is `00125`. The dataset contains one summary row with the counts. For field-level details, open the run's default key-value store and read the `OUTPUT` record as JSON. A held or rejected run is not a completed comparison. The Actor cannot verify the upstream completeness declaration independently.
 
 ## Understand the safeguards and cost
 
 An unexpectedly empty later snapshot is held unless explicitly declared intentional. Do not allow an empty result simply because an upstream export failed. Data is stored in the run's Apify storage; avoid posting private catalog records or credentials in public issues.
 
-The Actor's public page describes a USD 0.05 event for a completed comparison, including one with no changes. Check the live Pricing tab and the account's platform-usage charges before any run; starting another run is a new comparison. Paused runs do not perform the comparison or its comparison event, as described on the Actor page.
+The Actor's public page describes a USD 0.05 event for a completed comparison, including one with no changes. Check the live Pricing tab and the account's platform-usage charges before any run; starting another run is a new comparison. After an emergency pause is detected, new comparison work and new comparison-event submission stop. Requests sent before detection cannot be guaranteed to be cancelled. Later dataset reads, storage and exports can incur platform usage under the account's plan.
 
 If you need a separate feed-monitoring workflow, the [authorized catalog feed example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo) is a different Actor with different inputs, behavior and pricing. Use a new monitor key when switching from its fictional demo to an authorized real feed; read its own documentation and price before use.
 
