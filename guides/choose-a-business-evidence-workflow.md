@@ -174,3 +174,5 @@ For your own targets, provide publicly accessible Greenhouse boards and select *
 5. Decide whether the evidence is useful for your own review. Baseline rows, capped scans, candidate matches and owner demonstrations do not establish customer outcomes or complete coverage.
 
 The [repository overview](../README.md) links all existing walkthroughs. Each Actor's current README and Pricing tab remain the source for its accepted inputs, limits and charges.
+
+For help interpreting the output, [separate run status, source coverage and business conclusions](read-status-and-coverage.md). The walkthrough explains why a successful process can still yield partial evidence or a candidate for review.
