@@ -12,6 +12,10 @@ Short, hands-on guides to monitoring public sources, comparing authorized snapsh
 
 日本語の手順：[宿泊レビューを確認する順番を整理する](guides/review-triage-ja.md)（架空データの入力と結果例）。
 
+## Choose a workflow before running
+
+[Compare all 12 evidence workflows](guides/choose-a-business-evidence-workflow.md) by the decision you need to make, the input you have, and the output you need to review. The guide covers job-board changes, catalog feeds, SKU comparisons, policy pages, RSS, UK tenders, SEC filings, FDA recalls, company domains, hotel reviews, accessibility and RevOps research, including when a spreadsheet, direct source or browser audit may be sufficient.
+
 ## Find the right example
 
 Each example opens a public task with a sample input and output fields. Copy it into your own Apify account, review live pricing and your maximum cost, and check the output diagnostics. A sample is a starting point, not a guarantee of complete coverage.
