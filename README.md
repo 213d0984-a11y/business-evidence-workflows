@@ -18,6 +18,8 @@ Short, hands-on guides to monitoring public sources, comparing authorized snapsh
 
 Read [why a successful monitoring run can still contain incomplete evidence](guides/read-status-and-coverage.md) before turning an empty result or candidate match into an alert. It walks through capped recall queries, missing-job candidates, partial tender scans and catalog completeness using documented owner examples.
 
+For API or AI-client use, follow [the API and MCP walkthrough](guides/use-business-evidence-actors-with-api-and-mcp.md). It lists all 12 Actor IDs and input examples, separates discovery from a potentially charged run, and explains how to retrieve an existing result.
+
 ## Find the right example
 
 Each example opens a public task with a sample input and output fields. Copy it into your own Apify account, review live pricing and your maximum cost, and check the output diagnostics. A sample is a starting point, not a guarantee of complete coverage.
