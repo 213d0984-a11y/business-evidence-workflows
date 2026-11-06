@@ -22,7 +22,7 @@ For API or AI-client use, follow [the API and MCP walkthrough](guides/use-busine
 
 ## Use your own data, then repeat
 
-[First useful result and repeat-use checklist for all 12 workflows](first-result-and-repeat-use.md) gives one small input, the output to inspect, the settings to keep, the next review action and a dated event-charge example for each product. For a recurring catalog, start with the [two-observation catalog walkthrough](catalog-two-observations.md); for hiring boards, use the [three-snapshot ATS walkthrough](job-board-snapshots.md). These examples help you test whether the output saves work in your own process.
+[First useful result and repeat-use checklist for all 12 workflows](guides/first-result-and-repeat-use.md) gives one small input, the output to inspect, the settings to keep, the next review action and a dated event-charge example for each product. For a recurring catalog, start with the [two-observation catalog walkthrough](guides/catalog-two-observations.md); for hiring boards, use the [three-snapshot ATS walkthrough](guides/job-board-snapshots.md). These examples help you test whether the output saves work in your own process.
 
 ## Find the right example
 
