@@ -1,0 +1,64 @@
+[
+  {
+    "recordType": "catalog_health",
+    "feedId": "fictional-supplier",
+    "sourceUrl": null,
+    "inputKind": "customer_json",
+    "status": "completed",
+    "baseline": false,
+    "rows": 4,
+    "previousRows": 4,
+    "changes": 3,
+    "issues": 0,
+    "currencies": [
+      "GBP"
+    ],
+    "observedAt": "2026-11-06T11:45:46.623Z",
+    "billable": true
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "00123",
+    "changeType": "updated",
+    "changedFields": [
+      "price",
+      "stock"
+    ],
+    "before": {
+      "sku": "00123",
+      "price": "19.90",
+      "currency": "GBP",
+      "stock": "12"
+    },
+    "after": {
+      "sku": "00123",
+      "price": "21.00",
+      "currency": "GBP",
+      "stock": "10"
+    },
+    "currencyChanged": false
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "00125",
+    "changeType": "added",
+    "after": {
+      "sku": "00125",
+      "price": "15.00",
+      "currency": "GBP",
+      "stock": "3"
+    }
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "00124",
+    "changeType": "removed_candidate",
+    "before": {
+      "sku": "00124",
+      "price": "24.00",
+      "currency": "GBP",
+      "stock": "0"
+    },
+    "evidence": "Both snapshots declared complete; source completeness is a customer declaration."
+  }
+]

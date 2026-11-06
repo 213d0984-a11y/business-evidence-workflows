@@ -1,0 +1,93 @@
+[
+  {
+    "queueStatus": "needs_review",
+    "sourceKind": "catalog",
+    "sourceKey": "fictional-supplier",
+    "itemId": "00123",
+    "changeType": "updated",
+    "changedFields": [
+      "price",
+      "stock"
+    ],
+    "before": {
+      "sku": "00123",
+      "price": "19.90",
+      "currency": "GBP",
+      "stock": "12"
+    },
+    "after": {
+      "sku": "00123",
+      "price": "21.00",
+      "currency": "GBP",
+      "stock": "10"
+    },
+    "title": null,
+    "sourceUrl": null,
+    "observedAt": "2026-11-06T11:45:46.623Z",
+    "missingCompleteObservations": null,
+    "evidence": "Compare with the authorized source before acting.",
+    "demoOnly": true,
+    "reviewDecision": ""
+  },
+  {
+    "queueStatus": "needs_review",
+    "sourceKind": "catalog",
+    "sourceKey": "fictional-supplier",
+    "itemId": "00125",
+    "changeType": "added",
+    "changedFields": [],
+    "before": null,
+    "after": {
+      "sku": "00125",
+      "price": "15.00",
+      "currency": "GBP",
+      "stock": "3"
+    },
+    "title": null,
+    "sourceUrl": null,
+    "observedAt": "2026-11-06T11:45:46.623Z",
+    "missingCompleteObservations": null,
+    "evidence": "Compare with the authorized source before acting.",
+    "demoOnly": true,
+    "reviewDecision": ""
+  },
+  {
+    "queueStatus": "needs_review",
+    "sourceKind": "catalog",
+    "sourceKey": "fictional-supplier",
+    "itemId": "00124",
+    "changeType": "removed_candidate",
+    "changedFields": [],
+    "before": {
+      "sku": "00124",
+      "price": "24.00",
+      "currency": "GBP",
+      "stock": "0"
+    },
+    "after": null,
+    "title": null,
+    "sourceUrl": null,
+    "observedAt": "2026-11-06T11:45:46.623Z",
+    "missingCompleteObservations": null,
+    "evidence": "Both snapshots declared complete; source completeness is a customer declaration.",
+    "demoOnly": true,
+    "reviewDecision": ""
+  },
+  {
+    "queueStatus": "needs_review",
+    "sourceKind": "ats",
+    "sourceKey": "greenhouse:sample-board",
+    "itemId": "101",
+    "changeType": "closed_candidate",
+    "changedFields": [],
+    "before": null,
+    "after": null,
+    "title": "Platform Engineer",
+    "sourceUrl": "https://example.org/careers/101",
+    "observedAt": "2026-11-06T11:45:46.659Z",
+    "missingCompleteObservations": 2,
+    "evidence": "absence across successful complete board observations; candidate only",
+    "demoOnly": true,
+    "reviewDecision": ""
+  }
+]

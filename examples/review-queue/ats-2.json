@@ -1,0 +1,33 @@
+[
+  {
+    "recordType": "board_health",
+    "boardKey": "greenhouse:sample-board",
+    "ats": "greenhouse",
+    "sourceUrl": null,
+    "inputKind": "customer_snapshot",
+    "sourceHealthy": true,
+    "complete": true,
+    "activeJobs": 0,
+    "baseline": false,
+    "deltaRecords": 1,
+    "observedAt": "2026-11-06T11:45:46.656Z",
+    "billable": true
+  },
+  {
+    "recordType": "job_delta",
+    "boardKey": "greenhouse:sample-board",
+    "id": "101",
+    "title": "Platform Engineer",
+    "location": "London",
+    "department": null,
+    "sourceUrl": "https://example.org/careers/101",
+    "publishedAt": null,
+    "updatedAt": null,
+    "salaryRaw": null,
+    "ats": "greenhouse",
+    "changeType": "closure_pending",
+    "missingCompleteObservations": 1,
+    "closureEvidence": "absence across successful complete board observations; candidate only",
+    "observedAt": "2026-11-06T11:45:46.656Z"
+  }
+]

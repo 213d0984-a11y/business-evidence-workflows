@@ -4,6 +4,15 @@ For catalog operations teams, this exercise turns a saved baseline into a small 
 
 Open [Catalog Feed Change Audit and current pricing](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit), copy its [public example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo), and inspect the input before running. Each completed audit currently has a USD 0.05 event charge plus a USD 0.01 start at the example memory setting, checked 6 November 2026. Two completed observations therefore have USD 0.12 in these charges; platform storage and later reads may add costs. Set a maximum cost and inspect live pricing.
 
+
+## Watch the 40-second example
+
+![Captioned catalog comparison walkthrough](../media/catalog-demo.gif)
+
+[Download the 40-second MP4](../media/catalog-demo.mp4) · [Manual n8n review-queue preview](n8n-review-queue.md)
+
+This captioned explainer uses fictional inputs and results checked with local product functions on 6 November 2026. It is not a recording of a cloud run or a customer result. The steps and safeguards are also described in the text below. Actual Actor use and later dataset access may incur charges; review live pricing before running.
+
 ## Establish the baseline
 
 Download [baseline.json](../examples/catalog/baseline.json) and paste its full contents into the copied task's JSON input. Use a monitor key that is not already used for another source.

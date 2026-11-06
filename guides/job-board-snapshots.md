@@ -2,6 +2,15 @@
 
 This walkthrough uses a fictional Greenhouse-style snapshot to show how a missing job becomes a closure candidate. It does not query a real job board or claim the job ever existed.
 
+
+## Watch the 40-second example
+
+![Captioned job-board observation walkthrough](../media/ats-demo.gif)
+
+[Download the 40-second MP4](../media/ats-demo.mp4) · [Manual n8n review-queue preview](n8n-review-queue.md)
+
+This captioned explainer uses fictional inputs and results checked with local product functions on 6 November 2026. It is not a recording of a cloud run or a customer result. The steps and safeguards are also described in the text below. Actual Actor use and later dataset access may incur charges; review live pricing before running.
+
 ## Before you start
 
 Open the [job-board example](https://apify.com/logical_resourcefulnes/ats-source-health-job-delta/examples/track-job-board-changes-demo) and make your own copy. Review the Actor's live Pricing tab and set a maximum cost for each run. This walkthrough performs three separate runs: each successful complete board check can incur an event charge, and start charges may apply. Post-run dataset access can incur standard platform usage charges.

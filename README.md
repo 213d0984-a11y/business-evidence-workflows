@@ -24,6 +24,15 @@ For API or AI-client use, follow [the API and MCP walkthrough](guides/use-busine
 
 [First useful result and repeat-use checklist for all 12 workflows](guides/first-result-and-repeat-use.md) gives one small input, the output to inspect, the settings to keep, the next review action and a dated event-charge example for each product. For a recurring catalog, start with the [two-observation catalog walkthrough](guides/catalog-two-observations.md); for hiring boards, use the [three-snapshot ATS walkthrough](guides/job-board-snapshots.md). These examples help you test whether the output saves work in your own process.
 
+## Watch a 40-second walkthrough
+
+| Workflow | Captioned animation and input examples |
+| --- | --- |
+| Compare supplier snapshots | [Catalog: baseline → 3 review changes](guides/catalog-two-observations.md#watch-the-40-second-example) |
+| Investigate a missing job | [ATS: baseline → pending → closure candidate](guides/job-board-snapshots.md#watch-the-40-second-example) |
+
+The videos use fictional inputs and offline product checks, not customer results. For an importable manual workflow, try the [n8n review-queue preview](guides/n8n-review-queue.md). It contains no credentials or network calls; the transformation has local checks, while n8n-engine verification is still pending.
+
 ## Find the right example
 
 Each example opens a public task with a sample input and output fields. Copy it into your own Apify account, review live pricing and your maximum cost, and check the output diagnostics. A sample is a starting point, not a guarantee of complete coverage.
@@ -50,4 +59,3 @@ The job-board, catalog, policy-page, hotel-review, RSS, company-domain and acces
 These tools provide evidence for a human to review. They do not guarantee complete coverage, business outcomes, legal compliance, or ownership. Use only inputs you are authorized to process. Fictional examples are identified as such; historical validation is not presented as customer results.
 
 The [Apify profile](https://apify.com/logical_resourcefulnes) lists all 12 public Actors. Revenue Pilot is configured for general use without individual approval. Open its example tasks and choose Run example to copy the fictional SKU preset. One completed comparison costs USD 0.05; keep the example's USD 0.05 maximum charge. An operator emergency pause remains available.
-

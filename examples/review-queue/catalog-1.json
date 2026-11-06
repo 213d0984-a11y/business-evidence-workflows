@@ -1,0 +1,63 @@
+[
+  {
+    "recordType": "catalog_health",
+    "feedId": "fictional-supplier",
+    "sourceUrl": null,
+    "inputKind": "customer_json",
+    "status": "completed",
+    "baseline": true,
+    "rows": 4,
+    "previousRows": 0,
+    "changes": 4,
+    "issues": 0,
+    "currencies": [
+      "GBP"
+    ],
+    "observedAt": "2026-11-06T11:45:46.615Z",
+    "billable": true
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "00123",
+    "changeType": "baseline",
+    "after": {
+      "sku": "00123",
+      "price": "19.90",
+      "currency": "GBP",
+      "stock": "12"
+    }
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "00124",
+    "changeType": "baseline",
+    "after": {
+      "sku": "00124",
+      "price": "24.00",
+      "currency": "GBP",
+      "stock": "0"
+    }
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "V-003",
+    "changeType": "baseline",
+    "after": {
+      "sku": "V-003",
+      "price": "10.00",
+      "currency": "GBP",
+      "stock": "4"
+    }
+  },
+  {
+    "recordType": "catalog_change",
+    "itemId": "V-004",
+    "changeType": "baseline",
+    "after": {
+      "sku": "V-004",
+      "price": "15.00",
+      "currency": "GBP",
+      "stock": "8"
+    }
+  }
+]
