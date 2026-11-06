@@ -1,0 +1,25 @@
+{
+  "monitorKey": "example-job-board",
+  "rightsConfirmed": true,
+  "maxJobs": 100,
+  "boards": [
+    {
+      "id": "sample-board",
+      "ats": "greenhouse",
+      "mode": "snapshot",
+      "complete": true,
+      "payload": {
+        "jobs": [
+          {
+            "id": "101",
+            "title": "Platform Engineer",
+            "location": {
+              "name": "London"
+            },
+            "absolute_url": "https://example.org/careers/101"
+          }
+        ]
+      }
+    }
+  ]
+}

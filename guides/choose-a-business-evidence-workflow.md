@@ -165,6 +165,10 @@ For your own targets, provide publicly accessible Greenhouse boards and select *
 
 **Check first:** current posting, source and qualification questions. A role or score is not proof of demand, budget or permission to send unsolicited messages. Successful company analyses can be billable even without a matching role.
 
+## From a first result to a repeat workflow
+
+Use the [all-product first-result checklist](first-result-and-repeat-use.md) for a concrete output check, repeat cadence, stable settings, cost example and downstream action. It includes troubleshooting and a compact evaluation record you can keep locally.
+
 ## A small first evaluation
 
 1. Pick the single workflow whose output matches your decision. Open the live pricing, input limits and public example.

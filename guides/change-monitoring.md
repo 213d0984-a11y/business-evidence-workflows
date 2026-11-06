@@ -48,3 +48,7 @@ Inspect the run's `OUTPUT` and diagnostics, even if the run itself appears succe
 
 For all four workflows, inspect the live Pricing tab and set a run cost limit before starting. Retrieve outputs and diagnostics after a run, and keep source URLs and timestamps with any downstream analysis.
 
+
+## Reuse complete input files
+
+For catalog operations, follow [two complete observations with downloadable JSON](catalog-two-observations.md). For job boards, follow [three snapshots](job-board-snapshots.md). Use [the first-result checklist](first-result-and-repeat-use.md) to move from fictional input to your authorized source and choose when a repeat observation is useful.

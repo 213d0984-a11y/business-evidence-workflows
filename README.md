@@ -20,6 +20,10 @@ Read [why a successful monitoring run can still contain incomplete evidence](gui
 
 For API or AI-client use, follow [the API and MCP walkthrough](guides/use-business-evidence-actors-with-api-and-mcp.md). It lists all 12 Actor IDs and input examples, separates discovery from a potentially charged run, and explains how to retrieve an existing result.
 
+## Use your own data, then repeat
+
+[First useful result and repeat-use checklist for all 12 workflows](first-result-and-repeat-use.md) gives one small input, the output to inspect, the settings to keep, the next review action and a dated event-charge example for each product. For a recurring catalog, start with the [two-observation catalog walkthrough](catalog-two-observations.md); for hiring boards, use the [three-snapshot ATS walkthrough](job-board-snapshots.md). These examples help you test whether the output saves work in your own process.
+
 ## Find the right example
 
 Each example opens a public task with a sample input and output fields. Copy it into your own Apify account, review live pricing and your maximum cost, and check the output diagnostics. A sample is a starting point, not a guarantee of complete coverage.
@@ -32,7 +36,7 @@ Each example opens a public task with a sample input and output fields. Copy it 
 | Screen recent food recalls | [FDA recall screening](https://apify.com/logical_resourcefulnes/fda-food-recall-supplier-match/examples/screen-recent-fda-food-recalls) | [Supplier evidence](guides/supplier-evidence.md) |
 | Prioritize hotel reviews | [Review triage](https://apify.com/logical_resourcefulnes/hospitality-review-triage-queue/examples/prioritize-hotel-review-responses-demo) | [Operations triage](guides/operations-triage.md) |
 | Track an RSS feed | [Competition news](https://apify.com/logical_resourcefulnes/licensed-industry-rss-delta-feed/examples/monitor-competition-news-rss) | [Change monitoring](guides/change-monitoring.md) |
-| Compare two complete JSON catalogs | [SKU comparison example](https://apify.com/logical_resourcefulnes/revenue-pilot/examples) | [Snapshot comparison](guides/product-snapshot-comparison.md) |
+| Compare two complete JSON catalogs | [SKU comparison example](https://apify.com/logical_resourcefulnes/revenue-pilot/examples/compare-two-product-catalog-snapshots-by-sku) | [Snapshot comparison](guides/product-snapshot-comparison.md) |
 | Monitor SEC filings | [SEC 8-K disclosures](https://apify.com/logical_resourcefulnes/sec-8k-item-amendment-watch/examples/track-sec-management-change-filings) | [Public records](guides/public-records.md) |
 | Research RevOps signals | [Salesforce and HubSpot prospects](https://apify.com/logical_resourcefulnes/revops-opportunity-radar/examples/salesforce-hubspot-prospect-check-10-companies) | [Operations triage](guides/operations-triage.md) |
 | Investigate a company domain | [UK domain evidence](https://apify.com/logical_resourcefulnes/uk-company-domain-evidence-resolver/examples/check-uk-company-domain-evidence) | [Supplier evidence](guides/supplier-evidence.md) |

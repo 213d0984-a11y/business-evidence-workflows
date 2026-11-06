@@ -1,0 +1,16 @@
+{
+  "monitorKey": "example-job-board",
+  "rightsConfirmed": true,
+  "maxJobs": 100,
+  "boards": [
+    {
+      "id": "sample-board",
+      "ats": "greenhouse",
+      "mode": "snapshot",
+      "complete": true,
+      "payload": {
+        "jobs": []
+      }
+    }
+  ]
+}

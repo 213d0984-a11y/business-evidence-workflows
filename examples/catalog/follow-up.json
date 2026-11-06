@@ -1,0 +1,35 @@
+{
+  "monitorKey": "example-catalog-v2",
+  "rightsConfirmed": true,
+  "feedId": "fictional-supplier",
+  "complete": true,
+  "allowEmptyAfter": false,
+  "allowLargeRemoval": false,
+  "keyField": "sku",
+  "records": [
+    {
+      "sku": "00123",
+      "price": "21.00",
+      "currency": "GBP",
+      "stock": "10"
+    },
+    {
+      "sku": "00125",
+      "price": "15.00",
+      "currency": "GBP",
+      "stock": "3"
+    },
+    {
+      "sku": "V-003",
+      "price": "10.00",
+      "currency": "GBP",
+      "stock": "4"
+    },
+    {
+      "sku": "V-004",
+      "price": "15.00",
+      "currency": "GBP",
+      "stock": "8"
+    }
+  ]
+}

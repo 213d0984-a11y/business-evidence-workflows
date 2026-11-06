@@ -64,3 +64,9 @@ On 27 October 2026, an owner test on the public build using these fictional inpu
 | 3 | `closed_candidate` | 2 |
 
 A `closed_candidate` is still evidence for review, not proof that the vacancy closed. A failed or incomplete source does not advance the missing count. For live sources, inspect board health and verify the original board before making a decision; never mark an incomplete export as complete just to reproduce this example.
+
+## Reuse the inputs and move to your board
+
+Download [the baseline input](../examples/ats/baseline.json) and [the complete empty snapshot](../examples/ats/empty.json). Run the empty snapshot twice after the baseline only if you want to reproduce the fictional sequence above. The local validation added on 6 November 2026 checks the sequence and confirms that an incomplete observation cannot advance the missing count; it does not run an Actor or validate live network availability.
+
+For your first real evaluation, use one authorized board and a new monitor key. Keep the board ID and key for later checks. Export a review queue containing board key, job ID, change type, observation time and source URL. Open the original posting before recording a closure. Repeat when a fresh complete observation is available, not merely to produce another output. The [repeat-use checklist](first-result-and-repeat-use.md#ats-job-board-changes) explains charges and a useful completion criterion.
