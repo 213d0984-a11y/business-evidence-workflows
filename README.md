@@ -26,6 +26,10 @@ For API or AI-client use, follow [the API and MCP walkthrough](guides/use-busine
 
 [First useful result and repeat-use checklist for all 12 workflows](guides/first-result-and-repeat-use.md) gives one small input, the output to inspect, the settings to keep, the next review action and a dated event-charge example for each product. For a recurring catalog, start with the [two-observation catalog walkthrough](guides/catalog-two-observations.md); for hiring boards, use the [three-snapshot ATS walkthrough](guides/job-board-snapshots.md). These examples help you test whether the output saves work in your own process.
 
+## Watch examples for all 12 workflows
+
+[Watch the 25–30 second illustrated workflow videos](guides/watch-workflows.md) and open the matching Apify example. Each video shows an input and a result or review step, using documented examples and saved owner tests.
+
 ## Watch a 40-second walkthrough
 
 ### Compare supplier feed changes
