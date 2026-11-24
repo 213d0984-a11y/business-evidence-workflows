@@ -28,10 +28,17 @@ For API or AI-client use, follow [the API and MCP walkthrough](guides/use-busine
 
 ## Watch a 40-second walkthrough
 
-| Workflow | Captioned animation and input examples |
-| --- | --- |
-| Compare supplier snapshots | [Catalog: baseline → 3 review changes](guides/catalog-two-observations.md#watch-the-40-second-example) |
-| Investigate a missing job | [ATS: baseline → pending → closure candidate](guides/job-board-snapshots.md#watch-the-40-second-example) |
+### Compare supplier feed changes
+
+![40-second fictional supplier catalog walkthrough](media/catalog-demo.gif)
+
+See a baseline followed by price, stock and missing-item review. [Open the catalog walkthrough](guides/catalog-two-observations.md#watch-the-40-second-example) or [view the Apify example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo).
+
+### Investigate a missing job
+
+![40-second fictional job-board walkthrough](media/ats-demo.gif)
+
+Follow two complete observations from a missing job to a closure candidate. [Open the ATS walkthrough](guides/job-board-snapshots.md#watch-the-40-second-example) or [view the Apify example](https://apify.com/logical_resourcefulnes/ats-source-health-job-delta/examples/track-job-board-changes-demo).
 
 The videos use fictional inputs and offline product checks, not customer results. For an importable manual workflow, try the [n8n review-queue preview](guides/n8n-review-queue.md). It contains no credentials or network calls; the transformation has local checks, while n8n-engine verification is still pending.
 
