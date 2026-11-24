@@ -32,7 +32,7 @@ For API or AI-client use, follow [the API and MCP walkthrough](guides/use-busine
 
 ![40-second fictional supplier catalog walkthrough](media/catalog-demo.gif)
 
-See a baseline followed by price, stock and missing-item review. [Open the catalog walkthrough](guides/catalog-two-observations.md#watch-the-40-second-example) or [view the Apify example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo).
+See a baseline followed by price, stock and missing-item review. [Watch a 30-second owner-test example](media/catalog-owner-test-en.mp4) showing the input and selected output from an October 26, 2026 cloud run using fictional data. [Open the catalog walkthrough](guides/catalog-two-observations.md#watch-the-40-second-example) or [view the Apify example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo).
 
 ### Investigate a missing job
 
