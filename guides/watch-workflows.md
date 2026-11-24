@@ -24,76 +24,76 @@ For detailed inputs, limitations and repeat-use steps, see the [first-result gui
 
 ## Animated previews
 
-Choose a workflow below to see its captioned example. The catalog animation uses the fictional offline example, and the other animations mirror the short videos above.
+Choose a workflow below to see its captioned example. These animations show the same edited input and documented-result screenshots as the videos above.
 
 ### ATS Source Health & Job Delta Feed
 
-![Animated illustrated walkthrough for ATS Source Health & Job Delta Feed](../media/demos/ats-source-health-job-delta.gif)
+![Animated illustrated walkthrough for ATS Source Health & Job Delta Feed](../media/screen-demos/ats-source-health-job-delta.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/ats-source-health-job-delta/examples/track-job-board-changes-demo)
 
 ### Authorized Catalog Feed Change Audit
 
-![Animated illustrated walkthrough for Authorized Catalog Feed Change Audit](../media/catalog-demo.gif)
+![Animated illustrated walkthrough for Authorized Catalog Feed Change Audit](../media/screen-demos/authorized-catalog-feed-audit.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/authorized-catalog-feed-audit/examples/audit-product-catalog-changes-demo)
 
 ### Product Catalog Diff by SKU | Revenue Pilot
 
-![Animated illustrated walkthrough for Product Catalog Diff by SKU and Revenue Pilot](../media/demos/revenue-pilot.gif)
+![Animated illustrated walkthrough for Product Catalog Diff by SKU and Revenue Pilot](../media/screen-demos/revenue-pilot.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/revenue-pilot/examples/compare-two-product-catalog-snapshots-by-sku)
 
 ### Authorized Policy Page Change Audit
 
-![Animated illustrated walkthrough for Authorized Policy Page Change Audit](../media/demos/authorized-policy-page-change-audit.gif)
+![Animated illustrated walkthrough for Authorized Policy Page Change Audit](../media/screen-demos/authorized-policy-page-change-audit.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/authorized-policy-page-change-audit/examples/monitor-policy-page-text-changes)
 
 ### Licensed Industry RSS Evidence Delta Feed
 
-![Animated illustrated walkthrough for Licensed Industry RSS Evidence Delta Feed](../media/demos/licensed-industry-rss-delta-feed.gif)
+![Animated illustrated walkthrough for Licensed Industry RSS Evidence Delta Feed](../media/screen-demos/licensed-industry-rss-delta-feed.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/licensed-industry-rss-delta-feed/examples/monitor-competition-news-rss)
 
 ### UK IT Tender Amendment & Deadline Watch
 
-![Animated illustrated walkthrough for UK IT Tender Amendment & Deadline Watch](../media/demos/uk-it-tender-amendment-watch.gif)
+![Animated illustrated walkthrough for UK IT Tender Amendment & Deadline Watch](../media/screen-demos/uk-it-tender-amendment-watch.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/uk-it-tender-amendment-watch/examples/track-uk-software-tender-deadlines)
 
 ### SEC 8-K Item & Amendment Watch
 
-![Animated illustrated walkthrough for SEC 8-K Item & Amendment Watch](../media/demos/sec-8k-item-amendment-watch.gif)
+![Animated illustrated walkthrough for SEC 8-K Item & Amendment Watch](../media/screen-demos/sec-8k-item-amendment-watch.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/sec-8k-item-amendment-watch/examples/track-sec-management-change-filings)
 
 ### FDA Food Recall Supplier Match Feed
 
-![Animated illustrated walkthrough for FDA Food Recall Supplier Match Feed](../media/demos/fda-food-recall-supplier-match.gif)
+![Animated illustrated walkthrough for FDA Food Recall Supplier Match Feed](../media/screen-demos/fda-food-recall-supplier-match.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/fda-food-recall-supplier-match/examples/screen-recent-fda-food-recalls)
 
 ### UK Company Domain Evidence Resolver
 
-![Animated illustrated walkthrough for UK Company Domain Evidence Resolver](../media/demos/uk-company-domain-evidence-resolver.gif)
+![Animated illustrated walkthrough for UK Company Domain Evidence Resolver](../media/screen-demos/uk-company-domain-evidence-resolver.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/uk-company-domain-evidence-resolver/examples/check-uk-company-domain-evidence)
 
 ### Hospitality Review Triage Queue
 
-![Animated illustrated walkthrough for Hospitality Review Triage Queue](../media/demos/hospitality-review-triage-queue.gif)
+![Animated illustrated walkthrough for Hospitality Review Triage Queue](../media/screen-demos/hospitality-review-triage-queue.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/hospitality-review-triage-queue/examples/prioritize-hotel-review-responses-demo)
 
 ### Website Accessibility Regression Evidence
 
-![Animated illustrated walkthrough for Website Accessibility Regression Evidence](../media/demos/website-accessibility-regression-evidence.gif)
+![Animated illustrated walkthrough for Website Accessibility Regression Evidence](../media/screen-demos/website-accessibility-regression-evidence.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/website-accessibility-regression-evidence/examples/check-accessibility-regression-demo)
 
 ### Salesforce & HubSpot Project Signals | RevOps Radar
 
-![Animated illustrated walkthrough for Salesforce & HubSpot Project Signals and RevOps Radar](../media/demos/revops-opportunity-radar.gif)
+![Animated illustrated walkthrough for Salesforce & HubSpot Project Signals and RevOps Radar](../media/screen-demos/revops-opportunity-radar.gif)
 
 [Open the Apify example](https://apify.com/logical_resourcefulnes/revops-opportunity-radar/examples/salesforce-hubspot-prospect-check-10-companies)
